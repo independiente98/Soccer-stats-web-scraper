@@ -71,15 +71,12 @@ for container in containers:
 
     # find container for goals
     if (title_container.text == "Goals"):
-
         findPlayer(f1)
 
     # find container for assists
     elif (title_container.text == "Assists"):
-
         findPlayer(f2)
 
     #  find container for Saves
     elif (title_container.text == "Saves"):
-
         findPlayer(f3)
